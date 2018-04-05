@@ -3,7 +3,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  index.addEventListener('keydown', function(e){
+  document.addEventListener('keydown', function(e){
     const key = e.which;
 
     if (key === code[index]) {
