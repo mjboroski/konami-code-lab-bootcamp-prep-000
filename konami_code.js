@@ -4,21 +4,19 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
   index.addEventListener('keydown', function(event){
-    onKeyDownHandler(event));
-})}
-  // This is the function that would be invoked by the event listener.
-function onKeyDownHandler(event) {
-  const key = event.which;
+    const key = event.which;
 
-  if (key == code[index]) {
-    index++;
+    if (key == code[index]) {
+      index++;
 
-    if (index == code.length) {
-      alert("Hurray!");
+      if (index == code.length) {
+        alert("Hurray!");
 
+        index = 0;
+      }
+    } else {
       index = 0;
     }
-  } else {
-    index = 0;
-  }
-}
+    );
+})}
+
