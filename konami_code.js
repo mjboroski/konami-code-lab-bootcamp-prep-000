@@ -3,12 +3,12 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  index.addEventListener('keydown', function(e){
-    onKeyDownHandler(e));
+  index.addEventListener('keydown', function(event){
+    onKeyDownHandler(event));
 })}
   // This is the function that would be invoked by the event listener.
-function onKeyDownHandler(e) {
-  const key = e.which;
+function onKeyDownHandler(event) {
+  const key = event.which;
 
   if (key == code[index]) {
     index++;
