@@ -6,10 +6,10 @@ function init() {
   index.addEventListener('keydown', function(e){
     const key = e.which;
 
-    if (key == code[index]) {
+    if (key === code[index]) {
       index++;
 
-      if (index == code.length) {
+      if (index === code.length) {
         alert("Hurray!");
 
         index = 0;
