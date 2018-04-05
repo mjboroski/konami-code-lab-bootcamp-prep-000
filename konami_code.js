@@ -3,8 +3,9 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  index.addEventListener('keydown', onKeyDownHandler(e));
-}
+  index.addEventListener('keydown', function(e){
+    onKeyDownHandler(e));
+})}
   // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
   const key = parseInt(e.which);
