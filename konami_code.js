@@ -3,12 +3,12 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  index.addEventListener('keydown', onKeyDownHandler(e) {
+  index.addEventListener('keydown', onKeyDownHandler {
     alert('I was clicked!')
   })
 }
   // This is the function that would be invoked by the event listener.
-function onKeyDownHandler(e) {
+function onKeyDownHandler() {
   const key = parseInt(e.which);
 
   if (key === code[index]) {
