@@ -3,7 +3,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  main.addEventListener('keydown', onKeyDownHandler(e) {
+  index.addEventListener('keydown', onKeyDownHandler(e) {
     alert('I was clicked!')
   })
 }
